@@ -1,0 +1,640 @@
+Mediciones totales: 1800
+
+Estadísticas generales:
+  Tiempo medio de ejecución: 18933 us
+  Tiempo mínimo de ejecución:  1213.17 us
+  Tiempo máximo de ejecución:  128880 us
+  Desviación estándar:       25752.2 us
+
+Análisis detallado por configuración:
+--------------------------------------------------------------------------------
+
+Variables de interés: 1, Variables condicionadas: 0
+  Muestras: 20
+  Media: 60118.2 us
+  Mín:  48614.7 us
+  Máx:  73073.5 us
+  DesvEst: 7663.21 us
+
+Variables de interés: 1, Variables condicionadas: 1
+  Muestras: 20
+  Media: 29976.4 us
+  Mín:  24639.5 us
+  Máx:  36609.2 us
+  DesvEst: 3814.18 us
+
+Variables de interés: 1, Variables condicionadas: 2
+  Muestras: 20
+  Media: 16967 us
+  Mín:  13187 us
+  Máx:  19581.5 us
+  DesvEst: 2040.8 us
+
+Variables de interés: 1, Variables condicionadas: 3
+  Muestras: 20
+  Media: 8878.13 us
+  Mín:  6983.72 us
+  Máx:  10755.5 us
+  DesvEst: 1134.66 us
+
+Variables de interés: 1, Variables condicionadas: 4
+  Muestras: 20
+  Media: 4873.21 us
+  Mín:  3960.47 us
+  Máx:  6003 us
+  DesvEst: 543.435 us
+
+Variables de interés: 1, Variables condicionadas: 5
+  Muestras: 20
+  Media: 2993.32 us
+  Mín:  2548.51 us
+  Máx:  4132.5 us
+  DesvEst: 382.453 us
+
+Variables de interés: 1, Variables condicionadas: 6
+  Muestras: 20
+  Media: 2072.94 us
+  Mín:  1729.48 us
+  Máx:  2503.4 us
+  DesvEst: 237.896 us
+
+Variables de interés: 1, Variables condicionadas: 7
+  Muestras: 20
+  Media: 1545.54 us
+  Mín:  1377.84 us
+  Máx:  1766.48 us
+  DesvEst: 121.415 us
+
+Variables de interés: 1, Variables condicionadas: 8
+  Muestras: 20
+  Media: 1365.84 us
+  Mín:  1267 us
+  Máx:  1491.7 us
+  DesvEst: 69.1025 us
+
+Variables de interés: 2, Variables condicionadas: 0
+  Muestras: 20
+  Media: 66054.7 us
+  Mín:  52055.2 us
+  Máx:  82825 us
+  DesvEst: 8759.96 us
+
+Variables de interés: 2, Variables condicionadas: 1
+  Muestras: 20
+  Media: 35017.6 us
+  Mín:  26049 us
+  Máx:  44725.8 us
+  DesvEst: 5130.65 us
+
+Variables de interés: 2, Variables condicionadas: 2
+  Muestras: 20
+  Media: 18232.9 us
+  Mín:  14389.2 us
+  Máx:  22715.4 us
+  DesvEst: 1996.3 us
+
+Variables de interés: 2, Variables condicionadas: 3
+  Muestras: 20
+  Media: 9390.03 us
+  Mín:  7244.26 us
+  Máx:  12028.1 us
+  DesvEst: 1433.99 us
+
+Variables de interés: 2, Variables condicionadas: 4
+  Muestras: 20
+  Media: 5143.31 us
+  Mín:  4052.14 us
+  Máx:  6141.94 us
+  DesvEst: 637.413 us
+
+Variables de interés: 2, Variables condicionadas: 5
+  Muestras: 20
+  Media: 3111.52 us
+  Mín:  2549.43 us
+  Máx:  4019.09 us
+  DesvEst: 440.511 us
+
+Variables de interés: 2, Variables condicionadas: 6
+  Muestras: 20
+  Media: 2240.31 us
+  Mín:  1768.76 us
+  Máx:  2651.29 us
+  DesvEst: 274.298 us
+
+Variables de interés: 2, Variables condicionadas: 7
+  Muestras: 20
+  Media: 1569.69 us
+  Mín:  1428.95 us
+  Máx:  1762.53 us
+  DesvEst: 108.789 us
+
+Variables de interés: 2, Variables condicionadas: 8
+  Muestras: 20
+  Media: 1352.94 us
+  Mín:  1214.19 us
+  Máx:  1529.06 us
+  DesvEst: 78.8787 us
+
+Variables de interés: 3, Variables condicionadas: 0
+  Muestras: 20
+  Media: 70607.1 us
+  Mín:  55898.1 us
+  Máx:  91901.2 us
+  DesvEst: 9481.73 us
+
+Variables de interés: 3, Variables condicionadas: 1
+  Muestras: 20
+  Media: 35195.6 us
+  Mín:  28122.1 us
+  Máx:  45664.3 us
+  DesvEst: 5422.27 us
+
+Variables de interés: 3, Variables condicionadas: 2
+  Muestras: 20
+  Media: 18629.5 us
+  Mín:  14386.8 us
+  Máx:  24876.5 us
+  DesvEst: 2979.7 us
+
+Variables de interés: 3, Variables condicionadas: 3
+  Muestras: 20
+  Media: 9741.99 us
+  Mín:  7846.05 us
+  Máx:  12908 us
+  DesvEst: 1370.64 us
+
+Variables de interés: 3, Variables condicionadas: 4
+  Muestras: 20
+  Media: 5733.94 us
+  Mín:  4196.2 us
+  Máx:  6968.18 us
+  DesvEst: 851.02 us
+
+Variables de interés: 3, Variables condicionadas: 5
+  Muestras: 20
+  Media: 3393.64 us
+  Mín:  2705.29 us
+  Máx:  4129.53 us
+  DesvEst: 382.256 us
+
+Variables de interés: 3, Variables condicionadas: 6
+  Muestras: 20
+  Media: 2215.58 us
+  Mín:  1843.39 us
+  Máx:  2746.05 us
+  DesvEst: 270.646 us
+
+Variables de interés: 3, Variables condicionadas: 7
+  Muestras: 20
+  Media: 1621.01 us
+  Mín:  1469.96 us
+  Máx:  1769.93 us
+  DesvEst: 102.306 us
+
+Variables de interés: 3, Variables condicionadas: 8
+  Muestras: 20
+  Media: 1323.12 us
+  Mín:  1213.17 us
+  Máx:  1444.25 us
+  DesvEst: 60.5895 us
+
+Variables de interés: 4, Variables condicionadas: 0
+  Muestras: 20
+  Media: 75323.9 us
+  Mín:  60428.3 us
+  Máx:  94416.4 us
+  DesvEst: 9134.84 us
+
+Variables de interés: 4, Variables condicionadas: 1
+  Muestras: 20
+  Media: 38225.9 us
+  Mín:  27213.4 us
+  Máx:  45500.5 us
+  DesvEst: 5002.99 us
+
+Variables de interés: 4, Variables condicionadas: 2
+  Muestras: 20
+  Media: 20394.8 us
+  Mín:  15773.2 us
+  Máx:  26742.8 us
+  DesvEst: 3007.3 us
+
+Variables de interés: 4, Variables condicionadas: 3
+  Muestras: 20
+  Media: 9714.62 us
+  Mín:  8307.26 us
+  Máx:  12880.3 us
+  DesvEst: 1231.33 us
+
+Variables de interés: 4, Variables condicionadas: 4
+  Muestras: 20
+  Media: 5788.57 us
+  Mín:  4600.81 us
+  Máx:  6697.11 us
+  DesvEst: 589.853 us
+
+Variables de interés: 4, Variables condicionadas: 5
+  Muestras: 20
+  Media: 3553.49 us
+  Mín:  2836.12 us
+  Máx:  4334.29 us
+  DesvEst: 419.747 us
+
+Variables de interés: 4, Variables condicionadas: 6
+  Muestras: 20
+  Media: 2252.9 us
+  Mín:  1876.36 us
+  Máx:  2632.93 us
+  DesvEst: 205.026 us
+
+Variables de interés: 4, Variables condicionadas: 7
+  Muestras: 20
+  Media: 1754.73 us
+  Mín:  1606.29 us
+  Máx:  2039.63 us
+  DesvEst: 114.323 us
+
+Variables de interés: 4, Variables condicionadas: 8
+  Muestras: 20
+  Media: 1434.97 us
+  Mín:  1370.54 us
+  Máx:  1543.4 us
+  DesvEst: 43.501 us
+
+Variables de interés: 5, Variables condicionadas: 0
+  Muestras: 20
+  Media: 76285.1 us
+  Mín:  56148 us
+  Máx:  94920.4 us
+  DesvEst: 12124.6 us
+
+Variables de interés: 5, Variables condicionadas: 1
+  Muestras: 20
+  Media: 40813.1 us
+  Mín:  33228.4 us
+  Máx:  51388.9 us
+  DesvEst: 4765.54 us
+
+Variables de interés: 5, Variables condicionadas: 2
+  Muestras: 20
+  Media: 19346.2 us
+  Mín:  15800.5 us
+  Máx:  22899.1 us
+  DesvEst: 2348.11 us
+
+Variables de interés: 5, Variables condicionadas: 3
+  Muestras: 20
+  Media: 10859.7 us
+  Mín:  8703.43 us
+  Máx:  13303.4 us
+  DesvEst: 1222.7 us
+
+Variables de interés: 5, Variables condicionadas: 4
+  Muestras: 20
+  Media: 6053.42 us
+  Mín:  4909.45 us
+  Máx:  7368.25 us
+  DesvEst: 666.659 us
+
+Variables de interés: 5, Variables condicionadas: 5
+  Muestras: 20
+  Media: 3668.05 us
+  Mín:  2912.77 us
+  Máx:  4141.05 us
+  DesvEst: 349.936 us
+
+Variables de interés: 5, Variables condicionadas: 6
+  Muestras: 20
+  Media: 2339.42 us
+  Mín:  2024.68 us
+  Máx:  2701.34 us
+  DesvEst: 181.358 us
+
+Variables de interés: 5, Variables condicionadas: 7
+  Muestras: 20
+  Media: 1703.32 us
+  Mín:  1463.15 us
+  Máx:  1964.58 us
+  DesvEst: 109.773 us
+
+Variables de interés: 5, Variables condicionadas: 8
+  Muestras: 20
+  Media: 1365.63 us
+  Mín:  1294.95 us
+  Máx:  1473.16 us
+  DesvEst: 51.4244 us
+
+Variables de interés: 6, Variables condicionadas: 0
+  Muestras: 20
+  Media: 79328.2 us
+  Mín:  65155.4 us
+  Máx:  97265.1 us
+  DesvEst: 10306.5 us
+
+Variables de interés: 6, Variables condicionadas: 1
+  Muestras: 20
+  Media: 42002.6 us
+  Mín:  33365.1 us
+  Máx:  51545.7 us
+  DesvEst: 5797.28 us
+
+Variables de interés: 6, Variables condicionadas: 2
+  Muestras: 20
+  Media: 22642.5 us
+  Mín:  17930.7 us
+  Máx:  26975 us
+  DesvEst: 2730.25 us
+
+Variables de interés: 6, Variables condicionadas: 3
+  Muestras: 20
+  Media: 11672.1 us
+  Mín:  10173.9 us
+  Máx:  13886.1 us
+  DesvEst: 1237.3 us
+
+Variables de interés: 6, Variables condicionadas: 4
+  Muestras: 20
+  Media: 6858.31 us
+  Mín:  6007.3 us
+  Máx:  8160.33 us
+  DesvEst: 500.771 us
+
+Variables de interés: 6, Variables condicionadas: 5
+  Muestras: 20
+  Media: 3969.81 us
+  Mín:  3432.96 us
+  Máx:  4487.71 us
+  DesvEst: 263.289 us
+
+Variables de interés: 6, Variables condicionadas: 6
+  Muestras: 20
+  Media: 2603.99 us
+  Mín:  2285.62 us
+  Máx:  2913.02 us
+  DesvEst: 167.604 us
+
+Variables de interés: 6, Variables condicionadas: 7
+  Muestras: 20
+  Media: 1863.91 us
+  Mín:  1727.68 us
+  Máx:  2175.9 us
+  DesvEst: 101.127 us
+
+Variables de interés: 6, Variables condicionadas: 8
+  Muestras: 20
+  Media: 1480.04 us
+  Mín:  1415.45 us
+  Máx:  1682.63 us
+  DesvEst: 61.7696 us
+
+Variables de interés: 7, Variables condicionadas: 0
+  Muestras: 20
+  Media: 85474.4 us
+  Mín:  64485.3 us
+  Máx:  105924 us
+  DesvEst: 10080.4 us
+
+Variables de interés: 7, Variables condicionadas: 1
+  Muestras: 20
+  Media: 43181.6 us
+  Mín:  33892.1 us
+  Máx:  50452.4 us
+  DesvEst: 5659.95 us
+
+Variables de interés: 7, Variables condicionadas: 2
+  Muestras: 20
+  Media: 23177.1 us
+  Mín:  18477.9 us
+  Máx:  27136.2 us
+  DesvEst: 2339.63 us
+
+Variables de interés: 7, Variables condicionadas: 3
+  Muestras: 20
+  Media: 12230.5 us
+  Mín:  10471.4 us
+  Máx:  13879 us
+  DesvEst: 892.884 us
+
+Variables de interés: 7, Variables condicionadas: 4
+  Muestras: 20
+  Media: 6806.19 us
+  Mín:  5342.76 us
+  Máx:  7446.5 us
+  DesvEst: 504.467 us
+
+Variables de interés: 7, Variables condicionadas: 5
+  Muestras: 20
+  Media: 4139.08 us
+  Mín:  3589.97 us
+  Máx:  5170.73 us
+  DesvEst: 312.998 us
+
+Variables de interés: 7, Variables condicionadas: 6
+  Muestras: 20
+  Media: 2737.91 us
+  Mín:  2343.93 us
+  Máx:  3494.85 us
+  DesvEst: 260.46 us
+
+Variables de interés: 7, Variables condicionadas: 7
+  Muestras: 20
+  Media: 1945.8 us
+  Mín:  1764.72 us
+  Máx:  2293.06 us
+  DesvEst: 106.158 us
+
+Variables de interés: 7, Variables condicionadas: 8
+  Muestras: 20
+  Media: 1453.52 us
+  Mín:  1354.12 us
+  Máx:  1722.87 us
+  DesvEst: 84.2382 us
+
+Variables de interés: 8, Variables condicionadas: 0
+  Muestras: 20
+  Media: 96012.3 us
+  Mín:  70172.8 us
+  Máx:  128880 us
+  DesvEst: 14933.8 us
+
+Variables de interés: 8, Variables condicionadas: 1
+  Muestras: 20
+  Media: 46964.9 us
+  Mín:  39797.5 us
+  Máx:  53039.9 us
+  DesvEst: 4646.59 us
+
+Variables de interés: 8, Variables condicionadas: 2
+  Muestras: 20
+  Media: 24635.8 us
+  Mín:  21056.5 us
+  Máx:  27101 us
+  DesvEst: 1703.92 us
+
+Variables de interés: 8, Variables condicionadas: 3
+  Muestras: 20
+  Media: 12797.1 us
+  Mín:  9970.77 us
+  Máx:  15780.3 us
+  DesvEst: 1266.87 us
+
+Variables de interés: 8, Variables condicionadas: 4
+  Muestras: 20
+  Media: 6793.28 us
+  Mín:  5502.18 us
+  Máx:  7856.16 us
+  DesvEst: 483.237 us
+
+Variables de interés: 8, Variables condicionadas: 5
+  Muestras: 20
+  Media: 3959.96 us
+  Mín:  3668.21 us
+  Máx:  4210.61 us
+  DesvEst: 170.6 us
+
+Variables de interés: 8, Variables condicionadas: 6
+  Muestras: 20
+  Media: 2480.86 us
+  Mín:  2211.3 us
+  Máx:  2680.12 us
+  DesvEst: 108.283 us
+
+Variables de interés: 8, Variables condicionadas: 7
+  Muestras: 20
+  Media: 1732.71 us
+  Mín:  1662.61 us
+  Máx:  1816.45 us
+  DesvEst: 44.1303 us
+
+Variables de interés: 8, Variables condicionadas: 8
+  Muestras: 20
+  Media: 1413.73 us
+  Mín:  1328.23 us
+  Máx:  1661.12 us
+  DesvEst: 94.1147 us
+
+Variables de interés: 9, Variables condicionadas: 0
+  Muestras: 20
+  Media: 96333 us
+  Mín:  78483.9 us
+  Máx:  103354 us
+  DesvEst: 5107.2 us
+
+Variables de interés: 9, Variables condicionadas: 1
+  Muestras: 20
+  Media: 48275.9 us
+  Mín:  37776 us
+  Máx:  54513.8 us
+  DesvEst: 4015.41 us
+
+Variables de interés: 9, Variables condicionadas: 2
+  Muestras: 20
+  Media: 26098.4 us
+  Mín:  23534.4 us
+  Máx:  28359.9 us
+  DesvEst: 1232.39 us
+
+Variables de interés: 9, Variables condicionadas: 3
+  Muestras: 20
+  Media: 13627.9 us
+  Mín:  12535.9 us
+  Máx:  14671.2 us
+  DesvEst: 486.888 us
+
+Variables de interés: 9, Variables condicionadas: 4
+  Muestras: 20
+  Media: 7468.9 us
+  Mín:  6410.9 us
+  Máx:  7929.47 us
+  DesvEst: 365.081 us
+
+Variables de interés: 9, Variables condicionadas: 5
+  Muestras: 20
+  Media: 4403.14 us
+  Mín:  4140.97 us
+  Máx:  4662.33 us
+  DesvEst: 121.013 us
+
+Variables de interés: 9, Variables condicionadas: 6
+  Muestras: 20
+  Media: 2724.95 us
+  Mín:  2450.53 us
+  Máx:  3036.62 us
+  DesvEst: 127.231 us
+
+Variables de interés: 9, Variables condicionadas: 7
+  Muestras: 20
+  Media: 1908.87 us
+  Mín:  1768.25 us
+  Máx:  2022.91 us
+  DesvEst: 72.6306 us
+
+Variables de interés: 9, Variables condicionadas: 8
+  Muestras: 20
+  Media: 1521.24 us
+  Mín:  1437.08 us
+  Máx:  1778.63 us
+  DesvEst: 74.7744 us
+
+Variables de interés: 10, Variables condicionadas: 0
+  Muestras: 20
+  Media: 99956.6 us
+  Mín:  73040.4 us
+  Máx:  107824 us
+  DesvEst: 8237.48 us
+
+Variables de interés: 10, Variables condicionadas: 1
+  Muestras: 20
+  Media: 51802.4 us
+  Mín:  44654.2 us
+  Máx:  57952.7 us
+  DesvEst: 2685.07 us
+
+Variables de interés: 10, Variables condicionadas: 2
+  Muestras: 20
+  Media: 26918.8 us
+  Mín:  25258.7 us
+  Máx:  29313.9 us
+  DesvEst: 972.192 us
+
+Variables de interés: 10, Variables condicionadas: 3
+  Muestras: 20
+  Media: 13866.2 us
+  Mín:  11165.4 us
+  Máx:  14861.7 us
+  DesvEst: 771.016 us
+
+Variables de interés: 10, Variables condicionadas: 4
+  Muestras: 20
+  Media: 7811.5 us
+  Mín:  7346.18 us
+  Máx:  8723.8 us
+  DesvEst: 360.579 us
+
+Variables de interés: 10, Variables condicionadas: 5
+  Muestras: 20
+  Media: 4392.31 us
+  Mín:  4084.46 us
+  Máx:  4762.5 us
+  DesvEst: 198.148 us
+
+Variables de interés: 10, Variables condicionadas: 6
+  Muestras: 20
+  Media: 2738.86 us
+  Mín:  2502.04 us
+  Máx:  3005.85 us
+  DesvEst: 119.957 us
+
+Variables de interés: 10, Variables condicionadas: 7
+  Muestras: 20
+  Media: 1964.03 us
+  Mín:  1799.05 us
+  Máx:  2191.86 us
+  DesvEst: 88.6564 us
+
+Variables de interés: 10, Variables condicionadas: 8
+  Muestras: 20
+  Media: 1557.15 us
+  Mín:  1419.76 us
+  Máx:  1864.24 us
+  DesvEst: 109.58 us

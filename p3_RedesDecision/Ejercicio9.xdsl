@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network5" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Bugs">
+			<state id="Si" />
+			<state id="No" />
+			<probabilities>0.4 0.6</probabilities>
+		</cpt>
+		<cpt id="Test">
+			<state id="Si" />
+			<state id="No" />
+			<parents>Bugs</parents>
+			<probabilities>0.8 0.2 0.1 0.9</probabilities>
+		</cpt>
+		<decision id="Lanzamiento">
+			<state id="Global" />
+			<state id="Beta" />
+			<parents>Test</parents>
+		</decision>
+		<utility id="Utilidad">
+			<parents>Lanzamiento Bugs</parents>
+			<utilities>10 100 70 90</utilities>
+		</utility>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.3724.0 ACADEMIC" name="Network5">
+			<node id="Lanzamiento">
+				<name>Lanzamiento</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>243 212 316 238</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Utilidad">
+				<name>Utilidad</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>468 207 522 239</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Bugs">
+				<name>Bugs</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>476 396 519 422</position>
+				<barchart active="true" />
+			</node>
+			<node id="Test">
+				<name>Test</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>255 394 296 419</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<textbox>
+				<caption>Sin informaciión: \nDecisión óptima: Beta\nUtilidad: 82\nCon información: \nSi hay bugs: Beta, 73.16\nSi no hay bugs: Global 88.39\nBeta 87.42\nValor de la información: 0.6\n</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>778 362 916 474</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>

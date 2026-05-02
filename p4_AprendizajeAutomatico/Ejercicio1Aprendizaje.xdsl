@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="AprobarTeoria">
+			<state id="Si" />
+			<state id="No" />
+			<probabilities>0.7000000000000001 0.3</probabilities>
+		</cpt>
+		<cpt id="AprobarPracticas">
+			<state id="Si" />
+			<state id="No" />
+			<parents>AprobarTeoria</parents>
+			<probabilities>0.9285714285714285 0.07142857142857142 0.3333333333333333 0.6666666666666666</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.3724.0 ACADEMIC" name="Network2">
+			<node id="AprobarPracticas">
+				<name>AprobarPracticas</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>384 196 501 267</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="AprobarTeoria">
+				<name>AprobarTeoria</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>113 196 216 260</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

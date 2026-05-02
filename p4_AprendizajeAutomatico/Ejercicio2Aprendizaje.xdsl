@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network3" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="ST_menos_1">
+			<state id="P" />
+			<state id="PB" />
+			<state id="PA" />
+			<probabilities>0.6990000000000001 0.252 0.049</probabilities>
+		</cpt>
+		<cpt id="ST">
+			<state id="P" />
+			<state id="PB" />
+			<state id="PA" />
+			<parents>ST_menos_1</parents>
+			<probabilities>0.8025751072961373 0.1487839771101574 0.04864091559370529 0.7023809523809523 0.04761904761904762 0.25 0.4081632653061224 0.4081632653061224 0.1836734693877551</probabilities>
+		</cpt>
+		<cpt id="ST_mas_1">
+			<state id="P" />
+			<state id="PB" />
+			<state id="PA" />
+			<parents>ST_menos_1 ST</parents>
+			<probabilities>0.5989304812834224 0.3012477718360071 0.09982174688057041 0.8076923076923077 0.09615384615384616 0.09615384615384616 0.1470588235294118 0.8235294117647058 0.02941176470588235 0.8022598870056498 0.1016949152542373 0.096045197740113 0.7948717948717948 0.02564102564102564 0.1794871794871795 0.7936507936507936 0.1587301587301587 0.04761904761904762 0.4 0.4 0.2 0.8 0.15 0.05 0.6333333333333333 0.3333333333333334 0.03333333333333333</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.3724.0 ACADEMIC" name="Network3">
+			<node id="ST_menos_1">
+				<name>ST-1</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>291 196 351 235</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="ST">
+				<name>ST</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>390 319 450 361</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="ST_mas_1">
+				<name>ST+1</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>506 194 570 237</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

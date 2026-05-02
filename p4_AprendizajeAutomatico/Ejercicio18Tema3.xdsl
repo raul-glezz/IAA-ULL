@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<decision id="OperarSinTest">
+			<state id="Si" />
+			<state id="No" />
+		</decision>
+		<decision id="Test_2">
+			<state id="Si" />
+			<state id="No" />
+			<parents>OperarSinTest</parents>
+		</decision>
+		<cpt id="ResultadoTest">
+			<state id="Positivo" />
+			<state id="Negativo" />
+			<parents>Test_2</parents>
+			<probabilities>0.9 0.09999999999999998 0.09999999999999998 0.9</probabilities>
+		</cpt>
+		<decision id="OperarConTest">
+			<state id="Si" />
+			<state id="No" />
+			<parents>ResultadoTest Test_2</parents>
+		</decision>
+		<cpt id="Sobrevivir">
+			<state id="Si" />
+			<state id="No" />
+			<parents>OperarSinTest OperarConTest</parents>
+			<probabilities>0.7 0.3 0.7 0.3 0.7 0.3 0 1</probabilities>
+		</cpt>
+		<cpt id="MorirTest">
+			<state id="Si" />
+			<state id="No" />
+			<parents>Test_2</parents>
+			<probabilities>0.05 0.95 0 1</probabilities>
+		</cpt>
+		<utility id="Utilidad">
+			<parents>Sobrevivir MorirTest OperarSinTest</parents>
+			<utilities>0 0 12 3 0 0 0 0</utilities>
+		</utility>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.3724.0 ACADEMIC" name="Network1">
+			<node id="Sobrevivir">
+				<name>Sobrevivir</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>423 281 485 319</position>
+				<barchart active="true" />
+			</node>
+			<node id="OperarSinTest">
+				<name>OperarSinTest</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>412 415 496 458</position>
+				<barchart active="true" />
+			</node>
+			<node id="Test_2">
+				<name>Test</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>250 195 283 221</position>
+				<barchart active="true" />
+			</node>
+			<node id="ResultadoTest">
+				<name>ResultadoTest</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>419 195 499 245</position>
+				<barchart active="true" />
+			</node>
+			<node id="MorirTest">
+				<name>MorirTest</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>426 117 485 153</position>
+				<barchart active="true" />
+			</node>
+			<node id="Utilidad">
+				<name>Utilidad</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>615 257 669 289</position>
+				<barchart active="true" />
+			</node>
+			<node id="OperarConTest">
+				<name>OperarConTest</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>223 290 309 316</position>
+				<barchart active="true" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

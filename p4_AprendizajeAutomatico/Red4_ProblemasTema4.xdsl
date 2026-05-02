@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network4" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Dice">
+			<state id="par" />
+			<state id="impar" />
+			<probabilities>0.4210526315789473 0.5789473684210527</probabilities>
+		</cpt>
+		<cpt id="Saca">
+			<state id="par" />
+			<state id="impar" />
+			<parents>Dice</parents>
+			<probabilities>0.9444444444444444 0.05555555555555555 0.09090909090909091 0.9090909090909092</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.3724.0 ACADEMIC" name="Network4">
+			<node id="Dice">
+				<name>Dice</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>311 283 352 308</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Saca">
+				<name>Saca</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>574 286 617 312</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

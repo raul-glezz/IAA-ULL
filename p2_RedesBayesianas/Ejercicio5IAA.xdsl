@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Calidad_Software">
+			<state id="Alta" />
+			<state id="Media" />
+			<probabilities>0.8 0.2</probabilities>
+		</cpt>
+		<cpt id="Num_Defectos">
+			<state id="Bajo" />
+			<state id="Alto" />
+			<parents>Calidad_Software</parents>
+			<probabilities>0.95 0.05000000000000004 0.6 0.4</probabilities>
+		</cpt>
+		<cpt id="Calidad_Testeo">
+			<state id="Alta" />
+			<state id="Media" />
+			<probabilities>0.8 0.2</probabilities>
+		</cpt>
+		<cpt id="Num_Defectos_Detectados">
+			<state id="Alto" />
+			<state id="Bajo" />
+			<parents>Num_Defectos Calidad_Testeo</parents>
+			<probabilities>0.01000000000000001 0.99 0.31 0.6899999999999999 0.99 0.01000000000000001 0.6899999999999999 0.3100000000000001</probabilities>
+		</cpt>
+		<cpt id="Num_Defectos_Residuales">
+			<state id="Alto" />
+			<state id="Bajo" />
+			<parents>Num_Defectos Num_Defectos_Detectados</parents>
+			<probabilities>0.79 0.21 0.01 0.99 0.11 0.89 0.89 0.11</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.5310.0 ACADEMIC" name="Network1">
+			<node id="Calidad_Software">
+				<name>Calidad Software</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>445 206 545 278</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Num_Defectos">
+				<name>Num Defectos</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>453 358 542 424</position>
+				<barchart active="true" />
+			</node>
+			<node id="Num_Defectos_Detectados">
+				<name>Num Defectos Detectados</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>670 352 796 432</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Calidad_Testeo">
+				<name>Calidad Testeo</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>677 211 783 272</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Num_Defectos_Residuales">
+				<name>Num Defectos Residuales</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>540 533 679 620</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

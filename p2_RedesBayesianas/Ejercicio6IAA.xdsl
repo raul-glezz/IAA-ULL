@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Joven">
+			<state id="Si" />
+			<state id="No" />
+			<probabilities>0.7 0.3</probabilities>
+		</cpt>
+		<cpt id="Perderse_Mitad">
+			<state id="Antes" />
+			<state id="Despues" />
+			<probabilities>0.3 0.7</probabilities>
+		</cpt>
+		<cpt id="Condicion_Fisica_Perderse">
+			<state id="Buena" />
+			<state id="Mala" />
+			<parents>Perderse_Mitad Joven</parents>
+			<probabilities>0.8 0.2 0.5 0.5 0.4 0.6 0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="Calor">
+			<state id="Si" />
+			<state id="No" />
+			<probabilities>0.4 0.6</probabilities>
+		</cpt>
+		<cpt id="Condicion_Fisica_Encontrados">
+			<state id="Buena" />
+			<state id="Mala" />
+			<parents>Calor Condicion_Fisica_Perderse</parents>
+			<probabilities>0.6 0.4 0.1 0.9 0.9 0.09999999999999998 0.4 0.6</probabilities>
+		</cpt>
+		<cpt id="Helicoptero">
+			<state id="Si" />
+			<state id="No" />
+			<parents>Condicion_Fisica_Encontrados</parents>
+			<probabilities>0.01 0.99 0.3 0.7</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.5310.0 ACADEMIC" name="Network2">
+			<node id="Joven">
+				<name>Joven</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>367 223 454 287</position>
+				<barchart active="true" />
+			</node>
+			<node id="Perderse_Mitad">
+				<name>Perderse Mitad</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>638 215 756 297</position>
+				<barchart active="true" />
+			</node>
+			<node id="Condicion_Fisica_Perderse">
+				<name>Condicion Fisica Perderse</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>490 363 624 433</position>
+				<barchart active="true" />
+			</node>
+			<node id="Calor">
+				<name>Calor</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>283 520 379 592</position>
+				<barchart active="true" />
+			</node>
+			<node id="Condicion_Fisica_Encontrados">
+				<name>Condicion Fisica Encontrados</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>509 528 610 591</position>
+				<barchart active="true" />
+			</node>
+			<node id="Helicoptero">
+				<name>Helicoptero</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>775 537 843 579</position>
+				<barchart active="true" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

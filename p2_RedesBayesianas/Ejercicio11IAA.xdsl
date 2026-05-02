@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network3" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Calidad_A">
+			<state id="Malo" />
+			<state id="Regular" />
+			<state id="Bueno" />
+			<probabilities>0.3333333333333333 0.3333333333333333 0.3333333333333334</probabilities>
+		</cpt>
+		<cpt id="Calidad_B">
+			<state id="Malo" />
+			<state id="Regular" />
+			<state id="Bueno" />
+			<probabilities>0.3333333333333333 0.3333333333333333 0.3333333333333334</probabilities>
+		</cpt>
+		<cpt id="Calidad_C">
+			<state id="Malo" />
+			<state id="Regular" />
+			<state id="Bueno" />
+			<probabilities>0.3333333333333333 0.3333333333333333 0.3333333333333334</probabilities>
+		</cpt>
+		<cpt id="Resultado_AB">
+			<state id="GanaA" />
+			<state id="Empate" />
+			<state id="GanaB" />
+			<parents>Calidad_A Calidad_B</parents>
+			<probabilities>0.1 0.8 0.1 0.1000000000000001 0.2 0.7 0.1 0.2 0.7 0.7 0.2 0.1 0.1 0.8 0.1 0.1 0.2 0.7 0.7 0.2 0.1 0.7 0.2 0.1 0.1 0.8 0.09999999999999998</probabilities>
+		</cpt>
+		<cpt id="Resultado_BC">
+			<state id="GanaB" />
+			<state id="Empate" />
+			<state id="GanaC" />
+			<parents>Calidad_B Calidad_C</parents>
+			<probabilities>0.1 0.8 0.1 0.1000000000000001 0.2 0.7 0.1 0.2 0.7 0.7 0.2 0.1 0.1 0.8 0.1 0.1 0.2 0.7 0.7 0.2 0.1 0.7 0.2 0.1 0.1 0.8 0.09999999999999998</probabilities>
+		</cpt>
+		<cpt id="Resultado_AC">
+			<state id="GanaA" />
+			<state id="Empate" />
+			<state id="GanaC" />
+			<parents>Calidad_A Calidad_C</parents>
+			<probabilities>0.1 0.8 0.1 0.1000000000000001 0.2 0.7 0.1 0.2 0.7 0.7 0.2 0.1 0.1 0.8 0.1 0.1 0.2 0.7 0.7 0.2 0.1 0.7 0.2 0.1 0.1 0.8 0.09999999999999998</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.5310.0 ACADEMIC" name="Network3">
+			<node id="Calidad_A">
+				<name>Calidad A</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>206 287 267 325</position>
+				<barchart active="true" width="206" height="128" />
+			</node>
+			<node id="Calidad_B">
+				<name>Calidad B</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>430 289 489 325</position>
+				<barchart active="true" width="206" height="128" />
+			</node>
+			<node id="Calidad_C">
+				<name>Calidad C</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>678 282 754 325</position>
+				<barchart active="true" width="206" height="128" />
+			</node>
+			<node id="Resultado_AB">
+				<name>Resultado AB</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>195 456 273 504</position>
+				<barchart active="true" width="206" height="128" />
+			</node>
+			<node id="Resultado_BC">
+				<name>Resultado BC</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>424 456 500 503</position>
+				<barchart active="true" width="206" height="128" />
+			</node>
+			<node id="Resultado_AC">
+				<name>Resultado AC</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>681 454 759 502</position>
+				<barchart active="true" width="206" height="128" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network3" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="tarjeta_fraudulenta">
+			<state id="si" />
+			<state id="no" />
+			<probabilities>1e-05 0.99999</probabilities>
+		</cpt>
+		<cpt id="poner_gasolina">
+			<state id="si" />
+			<state id="no" />
+			<parents>tarjeta_fraudulenta</parents>
+			<probabilities>0.2 0.8 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="titular">
+			<state id="hombre" />
+			<state id="mujer" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="hacer_compras_joyeria">
+			<state id="si" />
+			<state id="no" />
+			<parents>tarjeta_fraudulenta titular</parents>
+			<probabilities>0.05 0.95 0.05 0.95 0.005 0.995 0.008 0.992</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.3724.0 ACADEMIC" name="problema_19">
+			<node id="tarjeta_fraudulenta">
+				<name>tarjeta fraudulenta</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>248 216 347 277</position>
+				<barchart active="true" />
+			</node>
+			<node id="poner_gasolina">
+				<name>poner gasolina</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>171 452 253 503</position>
+				<barchart active="true" />
+			</node>
+			<node id="hacer_compras_joyeria">
+				<name>hacer compras joyeria</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>389 434 479 490</position>
+				<barchart active="true" />
+			</node>
+			<node id="titular">
+				<name>titular</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>467 294 512 322</position>
+				<barchart active="true" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

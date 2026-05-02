@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Python environment
+.venv/
+
 # Compiled Object files
 *.slo
 *.lo

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="tipo_usuario">
+			<state id="normal" />
+			<state id="malicioso" />
+			<probabilities>0.95 0.05000000000000004</probabilities>
+		</cpt>
+		<cpt id="uso_autorizado_permiso_1">
+			<state id="si" />
+			<state id="no" />
+			<parents>tipo_usuario</parents>
+			<probabilities>0.9 0.09999999999999998 0.4 0.6</probabilities>
+		</cpt>
+		<cpt id="uso_autorizado_permiso_2">
+			<state id="si" />
+			<state id="no" />
+			<parents>tipo_usuario</parents>
+			<probabilities>0.95 0.05000000000000004 0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="intento_sospechoso_tipo_1">
+			<state id="si" />
+			<state id="no" />
+			<parents>uso_autorizado_permiso_1</parents>
+			<probabilities>0.05 0.95 0.95 0.05000000000000004</probabilities>
+		</cpt>
+		<cpt id="intento_sospechoso_tipo_2">
+			<state id="si" />
+			<state id="no" />
+			<parents>uso_autorizado_permiso_2</parents>
+			<probabilities>0.05 0.95 0.99 0.01000000000000001</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.3724.0 ACADEMIC" name="problema_17">
+			<node id="tipo_usuario">
+				<name>tipo usuario</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>296 202 365 245</position>
+				<barchart active="true" />
+			</node>
+			<node id="uso_autorizado_permiso_1">
+				<name>uso autorizado permiso 1</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>159 357 262 421</position>
+				<barchart active="true" />
+			</node>
+			<node id="uso_autorizado_permiso_2">
+				<name>uso autorizado permiso 2</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>400 357 503 421</position>
+				<barchart active="true" />
+			</node>
+			<node id="intento_sospechoso_tipo_1">
+				<name>intento sospechoso tipo 1</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>160 484 261 547</position>
+				<barchart active="true" />
+			</node>
+			<node id="intento_sospechoso_tipo_2">
+				<name>intento sospechoso tipo 2</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>372 486 473 549</position>
+				<barchart active="true" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

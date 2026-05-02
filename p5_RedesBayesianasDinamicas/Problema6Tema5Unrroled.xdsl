@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network8" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="EstadoEquipo">
+			<state id="Bueno" />
+			<state id="Malo" />
+			<probabilities>0.95 0.05000000000000004</probabilities>
+		</cpt>
+		<cpt id="EstadoSensor">
+			<state id="Bueno" />
+			<state id="Malo" />
+			<probabilities>0.99 0.01000000000000001</probabilities>
+		</cpt>
+		<cpt id="Averia">
+			<state id="Si" />
+			<state id="No" />
+			<parents>EstadoEquipo EstadoSensor</parents>
+			<probabilities>0.01 0.99 0.1 0.9 0.99 0.01000000000000001 0.6 0.4</probabilities>
+		</cpt>
+		<cpt id="LlamadaServicio">
+			<state id="Si" />
+			<state id="No" />
+			<parents>Averia</parents>
+			<probabilities>0.99 0.01000000000000001 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="EstadoEquipo_1">
+			<state id="Bueno" />
+			<state id="Malo" />
+			<parents>EstadoEquipo LlamadaServicio</parents>
+			<probabilities>0.95 0.05000000000000004 1 0 0.95 0.05000000000000004 0 1</probabilities>
+			<property id="DSL_PLATE_NODE">0 1</property>
+		</cpt>
+		<cpt id="EstadoSensor_1">
+			<state id="Bueno" />
+			<state id="Malo" />
+			<parents>EstadoSensor LlamadaServicio</parents>
+			<probabilities>0.95 0.05000000000000004 1 0 0.95 0.05000000000000004 0 1</probabilities>
+			<property id="DSL_PLATE_NODE">1 1</property>
+		</cpt>
+		<cpt id="Averia_1">
+			<state id="Si" />
+			<state id="No" />
+			<parents>EstadoEquipo_1 EstadoSensor_1</parents>
+			<probabilities>0.01 0.99 0.1 0.9 0.99 0.01000000000000001 0.6 0.4</probabilities>
+			<property id="DSL_PLATE_NODE">2 1</property>
+		</cpt>
+		<cpt id="LlamadaServicio_1">
+			<state id="Si" />
+			<state id="No" />
+			<parents>Averia_1</parents>
+			<probabilities>0.99 0.01000000000000001 0.01 0.99</probabilities>
+			<property id="DSL_PLATE_NODE">3 1</property>
+		</cpt>
+		<cpt id="EstadoEquipo_2">
+			<state id="Bueno" />
+			<state id="Malo" />
+			<parents>EstadoEquipo_1 LlamadaServicio_1</parents>
+			<probabilities>0.95 0.05000000000000004 1 0 0.95 0.05000000000000004 0 1</probabilities>
+			<property id="DSL_PLATE_NODE">0 2</property>
+		</cpt>
+		<cpt id="EstadoSensor_2">
+			<state id="Bueno" />
+			<state id="Malo" />
+			<parents>EstadoSensor_1 LlamadaServicio_1</parents>
+			<probabilities>0.95 0.05000000000000004 1 0 0.95 0.05000000000000004 0 1</probabilities>
+			<property id="DSL_PLATE_NODE">1 2</property>
+		</cpt>
+		<cpt id="Averia_2">
+			<state id="Si" />
+			<state id="No" />
+			<parents>EstadoEquipo_2 EstadoSensor_2</parents>
+			<probabilities>0.01 0.99 0.1 0.9 0.99 0.01000000000000001 0.6 0.4</probabilities>
+			<property id="DSL_PLATE_NODE">2 2</property>
+		</cpt>
+		<cpt id="LlamadaServicio_2">
+			<state id="Si" />
+			<state id="No" />
+			<parents>Averia_2</parents>
+			<probabilities>0.99 0.01000000000000001 0.01 0.99</probabilities>
+			<property id="DSL_PLATE_NODE">3 2</property>
+		</cpt>
+		<cpt id="EstadoEquipo_3">
+			<state id="Bueno" />
+			<state id="Malo" />
+			<parents>EstadoEquipo_2 LlamadaServicio_2</parents>
+			<probabilities>0.95 0.05000000000000004 1 0 0.95 0.05000000000000004 0 1</probabilities>
+			<property id="DSL_PLATE_NODE">0 3</property>
+		</cpt>
+		<cpt id="EstadoSensor_3">
+			<state id="Bueno" />
+			<state id="Malo" />
+			<parents>EstadoSensor_2 LlamadaServicio_2</parents>
+			<probabilities>0.95 0.05000000000000004 1 0 0.95 0.05000000000000004 0 1</probabilities>
+			<property id="DSL_PLATE_NODE">1 3</property>
+		</cpt>
+		<cpt id="Averia_3">
+			<state id="Si" />
+			<state id="No" />
+			<parents>EstadoEquipo_3 EstadoSensor_3</parents>
+			<probabilities>0.01 0.99 0.1 0.9 0.99 0.01000000000000001 0.6 0.4</probabilities>
+			<property id="DSL_PLATE_NODE">2 3</property>
+		</cpt>
+		<cpt id="LlamadaServicio_3">
+			<state id="Si" />
+			<state id="No" />
+			<parents>Averia_3</parents>
+			<probabilities>0.99 0.01000000000000001 0.01 0.99</probabilities>
+			<property id="DSL_PLATE_NODE">3 3</property>
+		</cpt>
+		<cpt id="EstadoEquipo_4">
+			<state id="Bueno" />
+			<state id="Malo" />
+			<parents>EstadoEquipo_3 LlamadaServicio_3</parents>
+			<probabilities>0.95 0.05000000000000004 1 0 0.95 0.05000000000000004 0 1</probabilities>
+			<property id="DSL_PLATE_NODE">0 4</property>
+		</cpt>
+		<cpt id="EstadoSensor_4">
+			<state id="Bueno" />
+			<state id="Malo" />
+			<parents>EstadoSensor_3 LlamadaServicio_3</parents>
+			<probabilities>0.95 0.05000000000000004 1 0 0.95 0.05000000000000004 0 1</probabilities>
+			<property id="DSL_PLATE_NODE">1 4</property>
+		</cpt>
+		<cpt id="Averia_4">
+			<state id="Si" />
+			<state id="No" />
+			<parents>EstadoEquipo_4 EstadoSensor_4</parents>
+			<probabilities>0.01 0.99 0.1 0.9 0.99 0.01000000000000001 0.6 0.4</probabilities>
+			<property id="DSL_PLATE_NODE">2 4</property>
+		</cpt>
+		<cpt id="LlamadaServicio_4">
+			<state id="Si" />
+			<state id="No" />
+			<parents>Averia_4</parents>
+			<probabilities>0.99 0.01000000000000001 0.01 0.99</probabilities>
+			<property id="DSL_PLATE_NODE">3 4</property>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.5310.0 ACADEMIC" name="Network8 unrolled">
+			<node id="EstadoEquipo">
+				<name>EstadoEquipo</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>156 63 284 141</position>
+				<barchart active="true" />
+			</node>
+			<node id="EstadoSensor">
+				<name>EstadoSensor</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>349 65 477 143</position>
+				<barchart active="true" />
+			</node>
+			<node id="Averia">
+				<name>Averia</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>156 224 284 302</position>
+				<barchart active="true" />
+			</node>
+			<node id="LlamadaServicio">
+				<name>LlamadaServicio</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>349 226 477 304</position>
+				<barchart active="true" />
+			</node>
+			<textbox>
+				<caption>Step0</caption>
+				<font color="696969" name="Arial" size="7" />
+				<position>190 329 214 341</position>
+			</textbox>
+			<textbox>
+				<caption>Step1</caption>
+				<font color="696969" name="Arial" size="7" />
+				<position>550 329 574 341</position>
+			</textbox>
+			<textbox>
+				<caption>Step2</caption>
+				<font color="696969" name="Arial" size="7" />
+				<position>910 329 934 341</position>
+			</textbox>
+			<textbox>
+				<caption>Step3</caption>
+				<font color="696969" name="Arial" size="7" />
+				<position>1270 329 1294 341</position>
+			</textbox>
+			<textbox>
+				<caption>Step4</caption>
+				<font color="696969" name="Arial" size="7" />
+				<position>1630 329 1654 341</position>
+			</textbox>
+			<node id="EstadoEquipo_1">
+				<name>EstadoEquipo (t=1)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>516 83 644 161</position>
+				<barchart active="true" />
+			</node>
+			<node id="EstadoSensor_1">
+				<name>EstadoSensor (t=1)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>709 85 837 163</position>
+				<barchart active="true" />
+			</node>
+			<node id="Averia_1">
+				<name>Averia (t=1)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>516 244 644 322</position>
+				<barchart active="true" />
+			</node>
+			<node id="LlamadaServicio_1">
+				<name>LlamadaServicio (t=1)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>709 246 837 324</position>
+				<barchart active="true" />
+			</node>
+			<node id="EstadoEquipo_2">
+				<name>EstadoEquipo (t=2)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>876 63 1004 141</position>
+				<barchart active="true" />
+			</node>
+			<node id="EstadoSensor_2">
+				<name>EstadoSensor (t=2)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1069 65 1197 143</position>
+				<barchart active="true" />
+			</node>
+			<node id="Averia_2">
+				<name>Averia (t=2)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>876 224 1004 302</position>
+				<barchart active="true" />
+			</node>
+			<node id="LlamadaServicio_2">
+				<name>LlamadaServicio (t=2)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1069 226 1197 304</position>
+				<barchart active="true" />
+			</node>
+			<node id="EstadoEquipo_3">
+				<name>EstadoEquipo (t=3)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1236 83 1364 161</position>
+				<barchart active="true" />
+			</node>
+			<node id="EstadoSensor_3">
+				<name>EstadoSensor (t=3)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1429 85 1557 163</position>
+				<barchart active="true" />
+			</node>
+			<node id="Averia_3">
+				<name>Averia (t=3)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1236 244 1364 322</position>
+				<barchart active="true" />
+			</node>
+			<node id="LlamadaServicio_3">
+				<name>LlamadaServicio (t=3)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1429 246 1557 324</position>
+				<barchart active="true" />
+			</node>
+			<node id="EstadoEquipo_4">
+				<name>EstadoEquipo (t=4)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1596 63 1724 141</position>
+				<barchart active="true" />
+			</node>
+			<node id="EstadoSensor_4">
+				<name>EstadoSensor (t=4)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1789 65 1917 143</position>
+				<barchart active="true" />
+			</node>
+			<node id="Averia_4">
+				<name>Averia (t=4)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1596 224 1724 302</position>
+				<barchart active="true" />
+			</node>
+			<node id="LlamadaServicio_4">
+				<name>LlamadaServicio (t=4)</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1789 226 1917 304</position>
+				<barchart active="true" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

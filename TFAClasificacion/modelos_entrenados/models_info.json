@@ -1,0 +1,31 @@
+{
+  "Dense": {
+    "class": "DenseTextClassifier",
+    "params": {
+      "vocab_size": 32917,
+      "context_size": 100,
+      "embed_size": 64,
+      "hidden_dim": 128
+    }
+  },
+  "RNN": {
+    "class": "RNNTextClassifier",
+    "params": {
+      "vocab_size": 32917,
+      "embed_size": 32,
+      "hidden_dim": 64
+    }
+  },
+  "Transformer": {
+    "class": "TransformerTextClassifier",
+    "params": {
+      "vocab_size": 32917,
+      "embedding_dim": 64,
+      "num_layers": 2,
+      "num_heads": 4,
+      "feed_forward_dim": 256,
+      "dropout": 0.0,
+      "max_seq_length": 512
+    }
+  }
+}
